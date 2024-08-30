@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+form {
+  margin: 10px 50px; }
+
+.cuerpo-formulario {
+  display: grid;
+  grid-template-columns: 190px 1fr;
+  gap: 20px 5px; }
+  .cuerpo-formulario label {
+    font-size: 18px; }
+  .cuerpo-formulario p {
+    margin: 0px;
+    font-size: 18px; }
+
+.boton-enviar {
+  margin-top: 10px;
+  display: flex;
+  justify-content: end; }
+  .boton-enviar input {
+    width: 110px;
+    height: 35px; }
+
+@media screen and (max-width: 991px) {
+  form {
+    margin: 5px 30px; }
+  .cuerpo-formulario {
+    gap: 10px; } }
+
+@media screen and (max-width: 600px) {
+  form {
+    margin: 5px 10px; }
+  .cuerpo-formulario {
+    grid-template-columns: 1fr;
+    gap: 5px; }
+    .cuerpo-formulario label {
+      font-size: 16px; }
+    .cuerpo-formulario p {
+      font-size: 16px; } }
+
+
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none; }
+
+a:visited {
+  color: #9000ff; }
+
+a:hover {
+  font-weight: bold; }
+
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center; }
+
+h2 {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 30px; }
+
+main p {
+  margin: 2rem 10%;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify; }
+
+footer {
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  font-size: 15px; }
+  footer ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5vw; }
+    footer ul li {
+      text-align: center; }
+
+@media screen and (max-width: 991px) {
+  footer {
+    font-size: 15px; }
+  footer ul {
+    flex-direction: column;
+    gap: 4px; } }
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center; }
+  h2 {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px; }
+  main p {
+    margin: 2rem 10%;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify; }
+  footer {
+    font-size: 12px; }
+  footer ul {
+    flex-direction: column;
+    gap: 2px; } }
