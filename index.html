@@ -60,13 +60,91 @@
       </div>
 
           <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
-            <h4 id="scrollspyHeading1">Lodges</h4>
-                <p>...</p>
-            <h4 id="scrollspyHeading2">Location</h4>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12518.08225222654!2d-87.48788140354051!3d20.195783034820288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4fd7b24690e797%3A0x978f7901e52c2e18!2sNahouse%20Jungle%20Lodge!5e0!3m2!1ses!2sar!4v1725290171518!5m2!1ses!2sar" width=100% height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <p>...</p>
-            <h4 id="scrollspyHeading3">Reservas</h4>
+
+            <!-- Seccion Lodges -->
+            <h2 id="scrollspyHeading1">Lodges</h2>
+            <!-- BT Cards de los Lodges -->
+            <div class="card-group text-center">
+              <div class="card-unit">
+                <img src="./img/cenote-01.jpg" class="card-img-top" alt="Imagen de la cabana Cenote">
+                <div class="card-body">
+                  <h5 class="card-title">Cenote</h5>
+                  <p class="card-text">Texto descriptivo de la cabaña Cenote.</p>
+                  <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+                </div>
+              </div>
+              <div class="card-unit">
+                <!-- Probando un carousel adentro de una card -->
+                <div id="carouselHeaven" class="carousel slide z-0" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <!-- imagenes del carousel -->
+                    <div class="carousel-item active">
+                      <img src="./img/heaven/heaven-01.jpg" class="d-block w-100" alt="Imagen del lodge Heaven">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./img/heaven/heaven-02.jpg" class="d-block w-100" alt="Imagen del lodge Heaven">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./img/heaven/heaven-03.jpg" class="d-block w-100" alt="Imagen del lodge Heaven">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./img/heaven/heaven-04.jpg" class="d-block w-100" alt="Imagen del lodge Heaven">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./img/heaven/heaven-05.jpg" class="d-block w-100" alt="Imagen del lodge Heaven">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./img/heaven/heaven-06.jpg" class="d-block w-100" alt="Imagen del lodge Heaven">
+                    </div>
+                  </div>
+                  <!-- botones del carousel -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeaven" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselHeaven" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+
+
+                <!-- <img src="./img/heaven-01.jpg" class="card-img-top" alt="Imagen de la cabana Heaven"> -->
+                <div class="card-body">
+                  <h5 class="card-title">Heaven</h5>
+                  <p class="card-text">Texto descriptivo de la cabaña Heaven.</p>
+                </div>
+              </div>
+              
+              <div class="card-unit">
+                <img src="./img/jungle-01.jpg" class="card-img-top" alt="Imagen de la cabana Jungle">
+                <div class="card-body">
+                  <h5 class="card-title">Jungle</h5>
+                  <p class="card-text">Texto descriptivo de la cabaña Jungle.</p>
+                </div>
+              </div>
+
+              <div class="card-unit">
+                <img src="./img/zapote-01.jpg" class="card-img-top" alt="Imagen de la cabana Zapote">
+                <div class="card-body">
+                  <h5 class="card-title">Zapote</h5>
+                  <p class="card-text">Texto descriptivo de la cabaña Zapote.</p>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Mapa de google con la ubiccion -->
+            <h2 id="scrollspyHeading2">Location</h2>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12518.08225222654!2d-87.48788140354051!3d20.195783034820288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4fd7b24690e797%3A0x978f7901e52c2e18!2sNahouse%20Jungle%20Lodge!5e0!3m2!1ses!2sar!4v1725290171518!5m2!1ses!2sar" width=100% height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <p>...</p>
+
+            <!-- Seccion para redirigirte a el link de reservas  -->
+            <h2 id="scrollspyHeading3">Reservas</h2>
                 <a class="nav-link" href="https://hotels.cloudbeds.com/reservation/MswYi9?fbclid=PAZXh0bgNhZW0CMTEAAaaaQhqdDbv4oWEOmdVfmIMho4t0v0lEvXiPrkuY9K9j_WOBXXY8_Sb7Fow_aem_7eGRn9kfGEZG_cyToxwxsA#checkin=2024-08-30&checkout=2024-08-31 " target="_blank">haga click aquí</a>
+
+
+            <!-- Partes borradas a prueba -->
             <!-- <h4 id="scrollspyHeading4">Fourth heading</h4>
                 <p>...</p>
             <h4 id="scrollspyHeading5">Fifth heading</h4>
