@@ -1,18 +1,90 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
-/* .carousel-item {
-  max-height: 500px;
-} */
-.carousel-tamano {
-  width: 60%;
-  margin: auto; 
+* {
+  font-family: "Comfortaa", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none; 
+  color: azure;
+  background-color: #212529;
 }
+
 body{
   background-color: #212529
 }
+
 main{
-  margin: 0% 5%;
+  margin: 0px 5% ;
+}
+main p {
+  margin: 2rem 5%;
+  font-size: 14px;
+  font-weight: 200;
+  text-align: justify; }
+
+footer {
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  font-size: 15px; 
+}
+  footer ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5vw; 
+  }
+    footer ul li {
+      text-align: center; 
+    }
+
+a:hover {
+  font-weight: bold; 
+}
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  color: azure;
+  margin-top: 8px;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin: 15px;
+  color: azure;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: azure;
+  margin-top: 15px;
+}
+h4 {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: azure;
+  
+}
+
+.brand-name {
+  width: 440px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 40px;
+}
+
+.carousel-tamano {
+  width: 60%;
+  margin: auto; 
 }
 
 .card-group {
@@ -24,44 +96,6 @@ main{
 .card-unit {
   width: 600px;
 }
-
-* {
-  font-family: "Comfortaa", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style-type: none; 
-  color: azure;
-  background-color: #212529;
-}
-
-a:visited {
-  color: #a2a1c5; }
-
-a:hover {
-  font-weight: bold; }
-
-h1 {
-  font-size: 28px;
-  font-weight: 700;
-  text-align: center;
-  color: azure;
-}
-
-h2 {
-  font-size: 24px;
-  font-weight: 400;
-  text-align: center;
-  margin: 15px;
-  color: azure;
-}
-
-h3 {
-  font-size: 18px;
-  font-weight: 400;
-  text-align: center;
-  color: azure;
-}  
 .card-title{
   margin: 5px;
 }
@@ -72,29 +106,6 @@ h3 {
   margin: 15px;
 }
 
-main {
-  padding-top: 80px;
-}
-
-main p {
-  margin: 2rem 5%;
-  font-size: 14px;
-  font-weight: 200;
-  text-align: justify; }
-
-footer {
-  padding: 1%;
-  display: flex;
-  justify-content: center;
-  font-size: 15px; }
-  footer ul {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 5vw; }
-    footer ul li {
-      text-align: center; }
-
 .map-container {
   width: 90%;
   margin: auto;
@@ -103,12 +114,25 @@ footer {
   align-items: center;
   gap: 40px;
 }
-
 .map,.map-text {
   width: 50%;
 }
 .map-text-content {
   margin: 0%;
+}
+.amenities-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.amenities-card {
+  width: 400px;
+  margin: 10px 10px;
+}
+.amenities-list li {
+  font-size: 14px;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 991px) {
@@ -126,6 +150,25 @@ footer {
     flex-direction: column;
     gap: 4px; 
   }
+  h1 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 4px;
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 11px;
+  }
+  .brand-name {
+    width: 290px;
+    height: 80px;
+    gap: 20px;
+  }
+  .nav-item{
+    font-size: 16px;
+    font-weight: 300;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -133,16 +176,24 @@ footer {
     margin: 0%;
   }
   h1 {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 500;
-    text-align: center; 
   }
   h3 {
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    margin-bottom: 15px; 
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center; 
   }
+  .brand-name {
+    width: 100%;
+    height: 45px;
+    gap: 20px;
+  }
+  .nav-item{
+    font-size: 14px;
+    font-weight: 300;
+  }
+
   main p {
     margin: 2rem 10%;
     font-size: 12px;

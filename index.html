@@ -12,210 +12,267 @@
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
 </head>
 
-
 <body>
-    <header>
-        <nav id="navbar-example2" class="navbar fixed-top px-3 mb-3 w-100 z-3">
-            <a class="navbar-brand" href="#">
-              <div class="brand-name">
-                <h1>Nahouse</h1>
-                <h3>Jungle Lodges</h3>  
-              </div> 
-            </a>
-            <ul class="nav nav-pills">
-              <li class="nav-item"></li>
-                <a class="nav-link link-light" href="https://hotels.cloudbeds.com/reservation/MswYi9?fbclid=PAZXh0bgNhZW0CMTEAAaaaQhqdDbv4oWEOmdVfmIMho4t0v0lEvXiPrkuY9K9j_WOBXXY8_Sb7Fow_aem_7eGRn9kfGEZG_cyToxwxsA#checkin=2024-08-30&checkout=2024-08-31 " target="_blank">Book Now</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link-light" href="#scrollspyHeading1">Lodges</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link-light" href="#scrollspyHeading2">Location</a>
-              </li>
-              <li class="nav-item"></li>
-                <a class="nav-link link-light" href="#scrollspyHeading3">Amenities</a>
-              </li>
-              <li class="nav-item"></li>
-                <a class="nav-link link-light" href="#scrollspyHeading4">About Us</a>
-              </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-      <!-- <h1>Welcome to Nahouse</hi>
-        <h2>Jungle Lodges</h2>
-        <h3>Nahouse es un lugar que preserva la vegetación autóctona y tiene una alberca similar a un cenote</h3> -->
-      <!-- Imagenes en Carousel BT -->
-      <div class="carousel-tamano">
-        <div id="carouselExample" class="carousel slide z-0" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./img/03-NaHouse-cartel.jpg" class="d-block w-100" alt="Imagen de cartel de bienvenida Nahouse">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/01-NaHouse-global-noche.jpg" class="d-block w-100" alt="Imagen de Nahose de noche">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/02-NaHouse-global-dia.jpg" class="d-block w-100" alt="Imagen de Nahose de dia">
-              </div>
+  <header class="sticky-top">
+      <!-- <nav id="navbar-example2" class="navbar sticky-top px-3 mb-3 w-100 z-3"> -->
+      <nav id="navbar-example2" class="navbar px-3 mb-3 w-100 z-3">
+          <div class="container-fluid">
+          <div class="navbar-brand brand-name">
+            <h1>Nahouse</h1>
+            <h3>Jungle Lodges</h3>  
+          </div>
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link link-light" href="https://hotels.cloudbeds.com/reservation/MswYi9?fbclid=PAZXh0bgNhZW0CMTEAAaaaQhqdDbv4oWEOmdVfmIMho4t0v0lEvXiPrkuY9K9j_WOBXXY8_Sb7Fow_aem_7eGRn9kfGEZG_cyToxwxsA#checkin=2024-08-30&checkout=2024-08-31 " target="_blank">Book Now</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="#scrollspyHeading1">Lodges</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="#scrollspyHeading2">Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="#scrollspyHeading3">Amenities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="#scrollspyHeading4">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </header>
+  <main data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+    <!-- Imagenes en Carousel BT -->
+    <div class="carousel-tamano">
+      <div id="carouselExample" class="carousel slide z-0" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/03-NaHouse-cartel.jpg" class="d-block w-100" alt="Imagen de cartel de bienvenida Nahouse">
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <div class="carousel-item">
+              <img src="./img/01-NaHouse-global-noche.jpg" class="d-block w-100" alt="Imagen de Nahose de noche">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/02-NaHouse-global-dia.jpg" class="d-block w-100" alt="Imagen de Nahose de dia">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+    </div>
+    
+    <!-- Seccion Lodges -->
+    <h2 id="scrollspyHeading1">Lodges</h2>
+    <!-- BT Cards de los Lodges -->
+    <div class="card-group text-center">
+      <div class="card-unit">
+        <img src="./img/cenote-01.jpg" class="card-img-top" alt="Cenote Lodge Image">
+        <div class="card-body">
+          <h5 class="card-title">Cenote</h5>
+          <p class="card-text">Cenote Lodge is a beautiful small house surrounded by extensive vegetation and located next to the natural pool. As soon as you go out to the terrace you can enjoy the beautiful and relaxing landscape that Nahouse offers.
+            It has all the amenities you need to have a super comfortable stay. The kitchen facilities and amenities allow you to cook there as many times as you need.
+            Nahouse is an ideal place to enjoy not only going to the magnificent beaches of Tulum but also the time you spend at your accommodation.</p>
+          <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
         </div>
       </div>
-          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2" tabindex="0">
-
-            <!-- Seccion Lodges -->
-            <h2 id="scrollspyHeading1">Lodges</h2>
-            <!-- BT Cards de los Lodges -->
-            <div class="card-group text-center">
-              <div class="card-unit">
-                <img src="./img/cenote-01.jpg" class="card-img-top" alt="Cenote Lodge Image">
-                <div class="card-body">
-                  <h5 class="card-title">Cenote</h5>
-                  <p class="card-text">Cenote Lodge is a beautiful small house surrounded by extensive vegetation and located next to the natural pool. As soon as you go out to the terrace you can enjoy the beautiful and relaxing landscape that Nahouse offers.
-                    It has all the amenities you need to have a super comfortable stay. The kitchen facilities and amenities allow you to cook there as many times as you need.
-                    Nahouse is an ideal place to enjoy not only going to the magnificent beaches of Tulum but also the time you spend at your accommodation.</p>
-                  <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
-                </div>
-              </div>
-              <div class="card-unit">
-                <!-- Probando un carousel adentro de una card -->
-                <div id="carouselHeaven" class="carousel slide z-0" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <!-- imagenes del carousel -->
-                    <div class="carousel-item active">
-                      <img src="./img/heaven/heaven-01.jpg" class="d-block w-100" alt="Heaven Lodge Image">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./img/heaven/heaven-02.jpg" class="d-block w-100" alt="Heaven Lodge Image">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./img/heaven/heaven-03.jpg" class="d-block w-100" alt="Heaven Lodge Image">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./img/heaven/heaven-04.jpg" class="d-block w-100" alt="Heaven Lodge Image">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./img/heaven/heaven-05.jpg" class="d-block w-100" alt="Heaven Lodge Image">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./img/heaven/heaven-06.jpg" class="d-block w-100" alt="Heaven Lodge Image">
-                    </div>
-                  </div>
-                  <!-- botones del carousel -->
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeaven" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselHeaven" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Heaven</h5>
-                  <p class="card-text">Heaven Lodge is a beautiful small house surrounded by extensive vegetation and located in front of to the natural pool. As soon as you go out to the terrace you can enjoy the beautiful and relaxing landscape that Nahouse offers.
-                    It has all the amenities you need to have a super comfortable stay. The kitchen facilities and amenities allow you to cook there as many times as you need.
-                    Nahouse is an ideal place to enjoy not only going to the magnificent beaches of Tulum but also the time you spend at your accommodation.</p>
-                </div>
-              </div>
-              
-              <div class="card-unit">
-                <img src="./img/jungle-01.jpg" class="card-img-top" alt="Jungle Lodge Image">
-                <div class="card-body">
-                  <h5 class="card-title">Jungle</h5>
-                  <p class="card-text">Jungle Lodge is a beautiful small house surrounded by extensive vegetation and located next to the natural pool. As soon as you go out to the terrace you can enjoy the beautiful and relaxing landscape that Nahouse offers.
-                    It has all the amenities you need to have a super comfortable stay. The kitchen facilities and amenities allow you to cook there as many times as you need.
-                    Nahouse is an ideal place to enjoy not only going to the magnificent beaches of Tulum but also the time you spend at your accommodation.</p>
-                </div>
-              </div>
-
-              <div class="card-unit">
-                <img src="./img/zapote-01.jpg" class="card-img-top" alt="Zapote Lodge Image">
-                <div class="card-body">
-                  <h5 class="card-title">Zapote</h5>
-                  <p class="card-text">Zapote Lodge is a beautiful small house surrounded by extensive vegetation and located next to the natural pool. As soon as you go out to the terrace you can enjoy the beautiful and relaxing landscape that Nahouse offers.
-                    It has all the amenities you need to have a super comfortable stay. The kitchen facilities and amenities allow you to cook there as many times as you need.
-                    Nahouse is an ideal place to enjoy not only going to the magnificent beaches of Tulum but also the time you spend at your accommodation.</p>
-                </div>
-              </div>
+      <div class="card-unit">
+        <!-- Probando un carousel adentro de una card -->
+        <div id="carouselHeaven" class="carousel slide z-0" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- imagenes del carousel -->
+            <div class="carousel-item active">
+              <img src="./img/heaven/heaven-01.jpg" class="d-block w-100" alt="Heaven Lodge Image">
             </div>
-
-
-            <!-- Mapa de google con la ubiccion -->
-            <h2 id="scrollspyHeading2">Location</h2>
-              <div class="map-container">
-                <div class="map">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12518.08225222654!2d-87.48788140354051!3d20.195783034820288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4fd7b24690e797%3A0x978f7901e52c2e18!2sNahouse%20Jungle%20Lodge!5e0!3m2!1ses!2sar!4v1725290171518!5m2!1ses!2sar" width=100% height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class="map-text">  
-                  <p class="map-text-content">We are located in Heaven Tulum, near La Veleta, a residential area. We are about 9800 feets from the beach area and same distance from main town in a different direction.  We are surrounded by chic cafes, international restaurants, and casual seafood places. Is an up-and-coming neighborhood with easy access to Cenote Cristal, Cenote Escondido, and Kaan Loom Lagunes 3 turquoise, fish-filled swimming lakes nestled in the forest. Abou 15 minutes by car from the arqueological site in Tulum and 40 minutes from Tulum airport.</p>
-                </div> 
-              </div>
-              
-
-            <!-- Seccion para redirigirte a el link de reservas  -->
-            <h2 id="scrollspyHeading3">Amenities</h2>
-              <p>Common areas:
-                - Free parking outside the property
-                - Wifi in all areas of Nahouse
-                - Patio or terrace with beautiful view and grill upon request
-                - Barbecue area
-                - Natural pool with ionized waters
-                - Independent entrance
-                
-                Security:
-                - Fire extinguisher Kit
-                - Telephones in case of emergency in our notebook
-                - Smoke and carbon monoxide detector
-                - Security cameras in common areas
-                - Electric fence
-                - Maintenance staff on the property 24 hours a day.
-                
-                Kitchen:
-                - Small refrigerator with freezer
-                - Coffee maker
-                - Pots and pans
-                - Salt and pepper
-                - Coffee
-                - Toaster
-                - Blender
-                - Crockery and cutlery
-                
-                Room:
-                - Safe
-                - Bedding
-                - Coat rack and chest of drawers to store clothes
-                - Iron (on request)
-                </p>
-
-
-            <!-- Partes borradas a prueba -->
-            <h2 id="scrollspyHeading4">About Us</h2>
-                <p>Nahouse is a place designed to provide an experience in the nature of the place without losing the comfort of being at home. There are 4 houses located on a 2000 m2 property with unique design and minimalist decoration immersed in the jungle. Our natural pool does not use chlorine and we maintain the water with an ionization system which is very effective and therapeutic.
-                  Come to enjoy this paradise! </p>
-            <!-- <h4 id="scrollspyHeading5">Fifth heading</h4>
-                <p>...</p> -->
+            <div class="carousel-item">
+              <img src="./img/heaven/heaven-02.jpg" class="d-block w-100" alt="Heaven Lodge Image">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/heaven/heaven-03.jpg" class="d-block w-100" alt="Heaven Lodge Image">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/heaven/heaven-04.jpg" class="d-block w-100" alt="Heaven Lodge Image">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/heaven/heaven-05.jpg" class="d-block w-100" alt="Heaven Lodge Image">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/heaven/heaven-06.jpg" class="d-block w-100" alt="Heaven Lodge Image">
+            </div>
           </div>
+          <!-- botones del carousel -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeaven" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselHeaven" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Heaven</h5>
+          <p class="card-text">Heaven Lodge is a beautiful small house surrounded by extensive vegetation and located in front of to the natural pool. As soon as you go out to the terrace you can enjoy the beautiful and relaxing landscape that Nahouse offers.
+            It has all the amenities you need to have a super comfortable stay. The kitchen facilities and amenities allow you to cook there as many times as you need.
+            Nahouse is an ideal place to enjoy not only going to the magnificent beaches of Tulum but also the time you spend at your accommodation.</p>
+        </div>
+      </div>
+      
+      <div class="card-unit">
+        <img src="./img/jungle-01.jpg" class="card-img-top" alt="Jungle Lodge Image">
+        <div class="card-body">
+          <h5 class="card-title">Jungle</h5>
+          <p class="card-text">Jungle Lodge is a beautiful small house surrounded by extensive vegetation and located next to the natural pool. As soon as you go out to the terrace you can enjoy the beautiful and relaxing landscape that Nahouse offers.
+            It has all the amenities you need to have a super comfortable stay. The kitchen facilities and amenities allow you to cook there as many times as you need.
+            Nahouse is an ideal place to enjoy not only going to the magnificent beaches of Tulum but also the time you spend at your accommodation.</p>
+        </div>
+      </div>
+
+      <div class="card-unit">
+        <img src="./img/zapote-01.jpg" class="card-img-top" alt="Zapote Lodge Image">
+        <div class="card-body">
+          <h5 class="card-title">Zapote</h5>
+          <p class="card-text">Zapote Lodge is a beautiful small house surrounded by extensive vegetation and located next to the natural pool. As soon as you go out to the terrace you can enjoy the beautiful and relaxing landscape that Nahouse offers.
+            It has all the amenities you need to have a super comfortable stay. The kitchen facilities and amenities allow you to cook there as many times as you need.
+            Nahouse is an ideal place to enjoy not only going to the magnificent beaches of Tulum but also the time you spend at your accommodation.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mapa de google con la ubiccion -->
+    <h2 id="scrollspyHeading2">Location</h2>
+      <div class="map-container">
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12518.08225222654!2d-87.48788140354051!3d20.195783034820288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4fd7b24690e797%3A0x978f7901e52c2e18!2sNahouse%20Jungle%20Lodge!5e0!3m2!1ses!2sar!4v1725290171518!5m2!1ses!2sar" width=100% height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="map-text">  
+          <p class="map-text-content">We are located in Heaven Tulum, near La Veleta, a residential area. We are about 9800 feets from the beach area and same distance from main town in a different direction.  We are surrounded by chic cafes, international restaurants, and casual seafood places. Is an up-and-coming neighborhood with easy access to Cenote Cristal, Cenote Escondido, and Kaan Loom Lagunes 3 turquoise, fish-filled swimming lakes nestled in the forest. Abou 15 minutes by car from the arqueological site in Tulum and 40 minutes from Tulum airport.</p>
+        </div> 
+      </div>
+    
+    <!-- Información de Amenities  -->
+    <h2 id="scrollspyHeading3">Amenities</h2>
+      <div class="amenities-container">
+        <!-- Common areas information Card -->
+        <div class="amenities-card">
+          <ul class="amenities-list">
+            <h4>Common areas:</h4>
+            <li>
+              - Free parking outside the property
+            </li>
+            <li>
+              - Wifi in all areas of Nahouse
+            </li>
+            <li>
+              - Patio or terrace with beautiful view and grill upon request
+            </li>
+            <li>
+              - Barbecue area
+            </li>
+            <li>
+              - Natural pool with ionized waters
+            </li>
+            <li>
+              - Independent entrance
+            </li>              
+          </ul>
+        </div>
+        <!-- Security Information Card-->
+        <div class="amenities-card">
+          <ul class="amenities-list">
+            <h4>Security:</h4>
+            <li>
+              - Fire extinguisher Kit
+            </li>
+            <li>
+              - Telephones in case of emergency in our notebook
+            </li>
+            <li>
+              - Smoke and carbon monoxide detector
+            </li>
+            <li>
+              - Security cameras in common areas
+            </li>
+            <li>
+              - Electric fence
+            </li>
+            <li>
+              - Maintenance staff on the property 24 hours a day.
+            </li>            
+          </ul>
+        </div>
+        <!-- Kitchen Information Card-->
+        <div class="amenities-card">
+          <ul class="amenities-list">
+            <h4>Kitchen:</h4>
+            <li>
+              - Small refrigerator with freezer
+            </li>
+            <li>
+              - Coffee maker
+            </li>
+            <li>
+              - Pots and pans
+            </li>
+            <li>
+              - Salt and pepper
+            </li>
+            <li>
+              - Coffee
+            </li>
+            <li>
+              - Toaster
+            </li>
+            <li>
+              - Blender
+            </li>
+            <li>
+              - Crockery and cutlery
+            </li>            
+          </ul>
+        </div>
+        <!-- Room Information Card-->
+        <div class="amenities-card">
+          <ul class="amenities-list">
+            <h4>Room:</h4>
+            <li>
+              - Safe
+            </li>
+            <li>
+              - Bedding
+            </li>
+            <li>
+              - Coat rack and chest of drawers to store clothes
+            </li>
+            <li>
+              - Iron (on request)
+            </li>             
+          </ul>
+        </div>
 
 
-    </main>
-    <footer>
-        <ul>
-            <li>Teléfono: 011 15-2868-6886</li>
-            <li>Mail: nahousereservations@gmail.com</li>
-            <li>C. 2 Sur Manzana 518 Lote 4, La Veleta, 77760 Tulum, Q.R., México</li>
-        </ul>
-    </footer>
+      </div>
+
+      <!-- About Us -->
+    <h2 id="scrollspyHeading4">About Us</h2>
+        <p>Nahouse is a place designed to provide an experience in the nature of the place without losing the comfort of being at home. There are 4 houses located on a 2000 m2 property with unique design and minimalist decoration immersed in the jungle. Our natural pool does not use chlorine and we maintain the water with an ionization system which is very effective and therapeutic.
+            Come to enjoy this paradise! </p>
+
+  </main>
+  <footer>
+      <ul>
+          <li>Teléfono: 011 15-2868-6886</li>
+          <li>Mail: nahousereservations@gmail.com</li>
+          <li>C. 2 Sur Manzana 518 Lote 4, La Veleta, 77760 Tulum, Q.R., México</li>
+      </ul>
+  </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
